@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>FocusWave Options</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 16px; max-width: 500px; }
+    textarea, input { width: 100%; margin-top: 8px; }
+    button { margin-top: 12px; padding: 8px 12px; }
+    label { font-weight: bold; margin-top: 12px; display: block; }
+  </style>
+</head>
+<body>
+  <h2>FocusWave Settings</h2>
+
+  <label>User ID</label>
+  <input id="userId" type="text" placeholder="Enter your user ID">
+
+  <label>Blocklist (one domain per line)</label>
+  <textarea id="blocklist" placeholder="instagram.com&#10;youtube.com"></textarea>
+
+  <button id="save">Save</button>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>
